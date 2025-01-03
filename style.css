@@ -2,4 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
+    text-align: center;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:70px;
+    caret-color: transparent; 
+    height:70px;
+    border:2px solid grey;
+}
+.box:hover{
+    background-color: orchid;
+}
+input:focus {
+    outline: none;
+}
+.main{
+    margin-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display:flex;
+}
+.black-border{
+    border:6px solid black;
+}
+.black-right{
+    border-right:6px solid black;
+}
+.black-bottom{
+    border-bottom: 6px solid black;
 }
